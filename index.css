@@ -1,0 +1,33 @@
+body{
+background-image: url(https://media.istockphoto.com/videos/abstract-christmas-gradient-red-gradient-background-with-bokeh-and-video-id895674806?s=640x640);
+background-size: 1865px;
+}
+h1{
+font-size: 3.1rem;
+line-height: 2.4;
+letter-spacing:0.2rem;
+text-align: center;
+color: white;
+margin-top: 50px;
+font-family: 'Lobster', cursive;
+
+}
+.maindiv{
+width: 28%;
+height: 49%;
+position: absolute;
+left: 35%;
+top: 20%;
+background-image: url('img/Y9.jpg');
+box-shadow: 1px 2px 10px 5px white;
+animation:slider 9s infinite linear;
+}
+@keyframes slider{
+  0%{ background-image: url('img/Y1.jpg'); }
+  25%{ background-image: url('img/Y5.jpg'); }
+  50%{ background-image: url('img/Y3.jpg'); }
+  75%{ background-image: url('img/Y9.jpg'); }
+  100%{ background-image: url('img/Y4.jpg'); }
+
+
+}
